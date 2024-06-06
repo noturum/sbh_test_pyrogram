@@ -1,5 +1,7 @@
 import asyncio
 import os
+from dotenv import load_dotenv
+load_dotenv()
 from datetime import datetime
 from pyrogram import Client, filters
 from pyrogram.types import Message
